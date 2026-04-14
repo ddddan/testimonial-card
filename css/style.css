@@ -1,0 +1,82 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(#F9FAFB, #D2D6DB);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 200px 0 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 340px;
+  margin: 20px auto;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.text-pair {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #171717;
+}
+
+.username {
+  font-size: 14px;
+  color: #525252;
+}
+
+.testimonial {
+  font-size: 16px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
